@@ -12,10 +12,18 @@
                 Text="Quiz"
                 Style="{StaticResource Headline}"
                 SemanticProperties.HeadingLevel="Level1" />
-
             
+            <Label
+                Text="Língua Portuguesa"/>
 
-            
+            <Button
+                Text="Começar"
+                Clicked="OnCliked"/>
+
+
+
+
+
         </VerticalStackLayout>
     </ScrollView>
 
